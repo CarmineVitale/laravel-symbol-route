@@ -3,7 +3,7 @@
 @section('content')
 
 <main>
-    <h2>contatti</h2>
+    <h2>Contatti</h2>
     <h4>Numero di telefono:</h4>
     <p>333/23122222</p>
     <h4>Indirizzo:</h4>
