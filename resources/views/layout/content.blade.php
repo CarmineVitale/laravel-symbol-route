@@ -11,13 +11,15 @@
         <h1>My First Laravel Layout</h1>
         <ul>
             <li> <a href="#">News</a> </li>
-            <li> <a href="#">Contacts</a> </li>
-            <li> <a href="#">About Us</a> </li>
+            <li> <a href="/contacts">Contacts</a> </li>
+            <li> <a href="/about">About Us</a> </li>
         </ul>
     </header>
     @yield('content')
     <footer>
         <p>Made with &hearts; by Carmine Vitale - Boolean Class 12 &copy;</p>
     </footer>
+    <!-- js -->
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
